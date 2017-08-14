@@ -52,6 +52,8 @@ public class Game implements Serializable {
             return this;
         }
 
+        public Game build(){ return new Game(this);}
+
     }
 
     @Override

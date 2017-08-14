@@ -67,6 +67,7 @@ public class Review implements Serializable {
             this.reviewID = value.getReviewID();
             return this;
         }
+        public Review build(){ return new Review(this);}
 
     }
     @Override
